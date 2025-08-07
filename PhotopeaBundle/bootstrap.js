@@ -31,7 +31,18 @@ class PhotopeaBootstrap {
   }
 
   loadResources() {
+    // order matters!
     const resources = [
+      "scripts/UPNG.js",
+      "scripts/Typr.js",
+      "scripts/Typr.U.js",
+      "scripts/Typr.U.SVG.js",
+      "scripts/UNN.js",
+      "scripts/UNN.util.js",
+      "scripts/UTEX.js",
+      "scripts/UTEX.DDS.js",
+      "scripts/UTIF.js ",
+      "scripts/UZIP.js",
       "style/all09.css",
       "code/ext/ext1753796081.js",
       "code/dbs/DBS1751979998.js",
